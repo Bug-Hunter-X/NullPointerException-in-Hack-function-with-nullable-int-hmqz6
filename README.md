@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Hack related to null pointer exceptions when using nullable types. The `foo` function intends to add 1 to an integer, but doesn't handle the possibility of a null input correctly.  The solution shows how to properly check for null values before performing the addition.
