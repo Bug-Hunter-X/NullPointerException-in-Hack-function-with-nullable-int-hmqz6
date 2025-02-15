@@ -1,0 +1,1 @@
+function foo(x: ?int): int {  if (x === null) {    return 0; // Or throw an exception, or handle as appropriate  }  return x + 1; }
